@@ -3,3 +3,5 @@
 source 'http://rubygems.org'
 
 gem "middleman", "~>3.0.13"
+gem "middleman-minify-html"
+gem "middleman-imageoptim", "~>0.1.4"
