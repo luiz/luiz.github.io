@@ -1,16 +1,25 @@
-<p class="initial-message"><%= I18n.t(:initial_message) %></p>
+<header class="initial-message">
+  <h1>Luiz Corte Real</h1>
+  <p><%= I18n.t(:initial_message) %></p>
+</header>
 
-<section class="content">
-  <p class="about-me"><%= I18n.t(:about_me) %></p>
+<main class="content">
+  <section class="about">
+    <p><%= I18n.t(:about_me) %></p>
+    <p><%= I18n.t(:formation) %></p>
+    <p><%= I18n.t(:job) %></p>
+  </section>
 
-  <h2 class="home-page-menu-header"><%= I18n.t(:more_about_me) %></h2>
-  <nav class="home-page-menu">
-    <ul>
-      <li><a href=""><%= I18n.t(:portfolio) %></a></li>
-      <li><a href=""><%= I18n.t(:articles) %></a></li>
-      <li><a href=""><%= I18n.t(:curriculum) %></a></li>
-      <li><a href=""><%= I18n.t(:some_more_stuff) %></a></li>
-      <li><a href=""><%= I18n.t(:contact) %></a></li>
-    </ul>
-  </nav>
-</section>
+  <section class="home-page-menu">
+    <h2 class="home-page-menu__header"><%= I18n.t(:more_about_me) %></h2>
+    <nav class="home-page-menu__links">
+      <ul>
+        <li><a class="home-page-menu__link" href=""><%= I18n.t(:portfolio) %></a></li>
+        <li><a class="home-page-menu__link" href=""><%= I18n.t(:articles) %></a></li>
+        <li><a class="home-page-menu__link" href=""><%= I18n.t(:curriculum) %></a></li>
+        <li><a class="home-page-menu__link" href=""><%= I18n.t(:some_more_stuff) %></a></li>
+        <li><a class="home-page-menu__link" href=""><%= I18n.t(:contact) %></a></li>
+      </ul>
+    </nav>
+  </section>
+</main>

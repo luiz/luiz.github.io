@@ -1,8 +1,10 @@
 ---
 pt:
   home: "Início"
-  initial_message: "Um desenvolvedor de software humano, professor &amp; algumas coisas mais"
-  about_me: "Olá! Meu nome é Luiz e sou um desenvolvedor de software e instrutor de desenvolvimento de software brasileiro, trabalhando atualmente na <a href='http://caelum.com.br'>Caelum</a>. Também escrevo para o blog <a href='http://vidageek.net'>VidaGeek.net</a>."
+  initial_message: "Desenvolvedor, professor e algumas coisas mais"
+  about_me: "Olá! Meu nome é Luiz e sou um professor e desenvolvedor de software brasileiro, trabalhando atualmente na <a href='http://caelum.com.br'>Caelum</a>. Também escrevo para o blog <a href='http://vidageek.net'>VidaGeek.net</a>."
+  formation: "Terminei minha graduação em Ciência da Computação em 2009 e meu mestrado, em 2013, ambos na Universidade de São Paulo, trabalhando com simulação, processamento de sinais e compressão."
+  job: "Trabalho usando a web como plataforma, desenvolvendo aplicações usando principalmente Java no servidor e as tecnologias padrões (HTML, CSS e JavaScript) no navegador. Desenvolver software de qualidade é minha paixão, então estou sempre estudando novas tecnologias e fazendo palestras sobre assuntos que acredito serem importantes para melhorar nossa comunidade de desenvolvedores. Também acredito fortemente nos valores do manifesto ágil: entregar software de qualidade e valor para meus usuários."
   more_about_me: "Mais sobre mim"
   portfolio: "Portfólio"
   articles: "Artigos"

@@ -1,8 +1,10 @@
 ---
 en:
   home: "Home"
-  initial_message: "A human software developer, teacher &amp; some more stuff"
-  about_me: "Hello! My name is Luiz and I'm a brazilian software developer and software development instructor, currently working at <a href='http://caelumobjects.com'>Caelum</a>. I also write for the blog <a href='http://vidageek.net'>VidaGeek.net</a> (in portuguese)."
+  initial_message: "Software developer, teacher &amp; some more stuff"
+  about_me: "Hello! My name is Luiz and I'm a brazilian teacher and software developer, currently working at <a href='http://caelumobjects.com'>Caelum</a>. I also write for the blog <a href='http://vidageek.net'>VidaGeek.net</a> (in portuguese)."
+  formation: "I gratuated in Computer Science in 2009 and completed my master's degree in 2013, both at University of São Paulo, working with simulation, signal processing and compression."
+  job: "I work using the web as a platform, developing web applications using mainly Java on the server side and the standard technologies (HTML, CSS and JavaScript) on the browser side. Developing good-quality software is my passion, so I'm always studying new technologies and presenting talks about subjects I believe are important for improving our developer community. Also, I strongly believe in the values of the Agile manifesto: delivering quality and value for my users."
   more_about_me: "More about me"
   portfolio: "Portfolio"
   articles: "Articles"

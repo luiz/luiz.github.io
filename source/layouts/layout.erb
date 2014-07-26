@@ -8,24 +8,13 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= data.page.title || "Luiz Fernando Oliveira Corte Real" %></title>
+    <title><%= (data.page.title || "") +  "Luiz Corte Real" %></title>
 
     <%= stylesheet_link_tag "normalize", "all" %>
   </head>
 
   <body class="<%= page_classes %>">
-    <nav class="site-nav">
-      <a href=""><%= I18n.t(:home) %></a>
-      <input type="checkbox" id="site-nav-sections-toggle-check">
-      <label for="site-nav-sections-toggle-check" class="site-nav-sections-toggle">Menu</label>
-      <ul class="site-nav-sections">
-        <li><a href=""><%= I18n.t(:portfolio) %></a></li>
-        <li><a href=""><%= I18n.t(:articles) %></a></li>
-        <li><a href=""><%= I18n.t(:curriculum) %></a></li>
-        <li><a href=""><%= I18n.t(:some_more_stuff) %></a></li>
-        <li><a href=""><%= I18n.t(:contact) %></a></li>
-      </ul>
-    </nav>
+    <a class="home-link" href="/"><%= I18n.t(:home) %></a>
     <%= yield %>
     <%= javascript_include_tag  "all" %>
   </body>
