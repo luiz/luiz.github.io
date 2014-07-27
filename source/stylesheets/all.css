@@ -21,7 +21,7 @@
   background-image: url(../images/home-bg-sm.jpg);
   background-size: cover;
   background-position: 50% 10%;
-  padding-top: 20%;
+  padding-top: 17.5%;
   padding-right: 40%;
   padding-left: 1em;
   padding-bottom: 2%;
@@ -44,6 +44,7 @@
   text-transform: uppercase;
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
 }
 .home-page-menu ul {
   padding: 0;
@@ -66,9 +67,9 @@
   text-transform: uppercase;
   background-color: #699;
   border-radius: 50%;
-  width: 6.5em;
-  height: 6.5em;
-  line-height: 5.8; /* 6.5em - .35em * 2 (borders) */
+  width: 6em;
+  height: 6em;
+  line-height: 5.3; /* 6em - .35em * 2 (borders) */
   display: inline-block;
   border: .35em solid rgba(255,255,255,0.1);
   transition: .5s;
@@ -93,7 +94,7 @@
 @media (min-width: 1025px) {
   .initial-message {
     background-image: url(../images/home-bg-lg.jpg);
-    font-size: 2.25em;
+    font-size: 1.75em;
   }
   .content {
     max-width: 100ch;
@@ -104,12 +105,14 @@
     box-sizing: border-box;
   }
   .about {
-    font-size: 1.25em;
-    padding-right: 2em;
+    padding: 0 2em;
     text-indent: 2ch;
     float: left;
   }
   .home-page-menu {
     float: right;
+  }
+  .home-page-menu__header {
+    margin-top: .5em;
   }
 }
